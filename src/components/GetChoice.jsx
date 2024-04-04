@@ -1,7 +1,7 @@
 const GetChoice = () => {
 return (
     <div>
-        <div className='mr-10 ml-10 '>
+        <div className='mr-10 ml-10 mt-3 '>
     <div style={{ backgroundColor: '#252641' }} className='rounded-2xl p-10 m-10'>
         <h1 className='font-bold text-center text-white text-2xl p-6'>
             Online coaching lessons for remote learning.
