@@ -69,12 +69,12 @@ const Course = () => {
       <TopCategory/>
       <div className="bg-[#f3f3f3] mt-12 ">
         <div className="flex justify-between pl-8 pb-8 pt-6 mr-10">
-          <h2 className="font-bold text-2xl pl-5">Recommended for you</h2>
-          <a href="#" className="text-right text-sm text-custom-blue-text pr-5">
+          <h2 className="font-bold text-md lg:text-2xl md:text-xl sm:text-lg pl-5">Recommended for you</h2>
+          <a href="#" className="text-right text-xs md:text-sm text-custom-blue-text pr-5">
              See all
           </a>
         </div>
-        <div className="grid grid-cols-4 mr-10 ml-10 pb-10">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 mx-4 pb-10">
           {recommendedData.map((element, index) => (
             <Recommended
               key={index} 
@@ -101,14 +101,13 @@ const Course = () => {
   </div>
 </div>
       </div>
-
       <div className="bg-white mt-12">
         <div className="flex justify-between pl-8 pb-8 pt-6 mr-10">
-          <h2 className="font-bold text-2xl pl-5">Get choice of your course</h2>
-          <a href="#" className="text-right text-sm text-custom-blue-text pr-5">
+          <h2 className="font-bold text-md lg:text-2xl md:text-xl sm:text-lg pl-5">Get choice of your course</h2>
+          <a href="#" className="text-right text-xs md:text-sm text-custom-blue-text pr-5">
              See all
           </a></div>
-        <div className="grid grid-cols-4 mr-10 ml-10 pb-10">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 mx-4 pb-10">
           {recommendedData.map((element, index) => (
             <Recommended
               key={index} 
@@ -129,11 +128,11 @@ const Course = () => {
       <GetChoice/>
       <div className="bg-white mt-12">
         <div className="flex justify-between pl-8 pb-8 pt-6 mr-10">
-          <h2 className="font-bold text-2xl pl-5">The course in Personal development</h2>
-          <a href="#" className="text-right text-sm text-custom-blue-text pr-5">
+          <h2 className="font-bold text-md lg:text-2xl md:text-xl sm:text-lg pl-5">The course in Personal development</h2>
+          <a href="#" className="text-right text-xs md:text-sm text-custom-blue-text pr-5">
              See all
           </a> </div>
-        <div className="grid grid-cols-4 mr-10 ml-10 pb-10">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 mx-4 pb-10">
           {recommendedData.map((element, index) => (
             <Recommended
               key={index} 
@@ -154,11 +153,11 @@ const Course = () => {
 
       <div className="bg-[#f3f3f3] mt-12">
         <div className="flex justify-between pl-8 pb-8 pt-6 mr-10 ">
-          <h2 className="font-bold text-2xl pl-5">Students are viewing </h2>
-          <a href="#" className="text-right text-sm text-custom-blue-text pr-5">
+          <h2 className="font-bold text-md lg:text-2xl md:text-xl sm:text-lg pl-5">Students are viewing </h2>
+          <a href="#" className="text-right text-xs md:text-sm text-custom-blue-text pr-5">
              See all
           </a> </div>
-        <div className="grid grid-cols-4 mr-10 ml-10 pb-10">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 mx-4 pb-10">
           {recommendedData.map((element, index) => (
             <Recommended
               key={index} 

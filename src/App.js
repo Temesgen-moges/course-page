@@ -6,7 +6,6 @@ const App = () => {
     <div>
      <Course/>
     </div>
-    
 
   );
 }
