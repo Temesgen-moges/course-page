@@ -11,9 +11,9 @@ const Navbar = () => {
     };
 
     return (
-        <div className="flex justify-between py-5 mx-12">
-            <div className="ml-10"><strong>Logo</strong></div>
-            <ul className="flex justify-end space-x-4">
+        <div className="flex justify-between py-5 lg:mx-12">
+            <div className="ml-2 sm:ml-4 md:ml-7 lg:ml-10"><strong>Logo</strong></div>
+            <ul className="flex justify-end space-x-2 md:space-x-4 text-xs sm:text-sm lg:md xl:lg">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Course</a></li>
                 <li><a href="#">Careers</a></li>

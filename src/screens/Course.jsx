@@ -63,7 +63,7 @@ const Course = () => {
   ];
 
   return (
-    <div>
+    <>
       <Navbar/>
       <WelcomeBack/>
       <TopCategory/>
@@ -175,7 +175,7 @@ const Course = () => {
         </div>
       </div>
       <Footer/>
-    </div>
+    </>
   );
 }
 

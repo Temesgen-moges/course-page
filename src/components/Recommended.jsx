@@ -4,8 +4,7 @@ import courseTypeIcon from '../assets/img/courseTypeIcon.png';
 
 const Recommended = ({ image, text, teacherPic, teacherName, description, type, duration, prevPrice, curPrice }) => {
   return (
-    <div className=''>
-    <div className=' '>
+    <div>
     <div className="recommended-container bg-white shadow-lg p-4 mr-3 ml-3">
       <div className="recommended-content">
         <div className="recommended-header ">
@@ -35,7 +34,6 @@ const Recommended = ({ image, text, teacherPic, teacherName, description, type, 
             </div>
           </div>
         </div>
-      </div>
       </div>
       </div>
       </div>

@@ -178,11 +178,11 @@ import { FaCamera } from "react-icons/fa";
 
 const TopCategory = () => {
   return (
-    <div className="mt-10 bg-white">
+    <div className="mt-10 mx-2 bg-white">
       <h1 className="font-bold text-left text-sm sm:text-md md:text-lg lg:text-xl ml-7 pt-10">
         Choice favourite course from top category
       </h1>
-      <div className="container flex flex-wrap ml-7 mt-10 space-x-3 sm:space-x-4 md:space-x-6 lg:space-x-9">
+      <div className="container flex flex-wrap mt-10 px-3 space-x-2 sm:space-x-3 md:space-x-5 lg:space-x-7">
         <Card icon={<FaPen />} title="Design" color="bg-slate-600">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquet, felis in congue vehicula,
         </Card>
@@ -214,12 +214,12 @@ const TopCategory = () => {
 
 const Card = ({ icon, title, color, children }) => {
   return (
-    <div className="shadow-xl rounded-lg flex flex-col justify-center items-center mt-8 md:w-48 lg:w-56">
-      <div className={`${color} md:h-14 h-12 w-10 md:w-12 flex justify-center items-center shadow-md`}>
+    <div className="shadow-xl rounded-lg flex flex-col flex-wrap justify-center items-center mt-8 md:w-48 lg:w-56">
+      <div className={`${color} md:h-14 h-20 w-24 md:w-12 flex justify-center items-center shadow-md`}>
         {icon}
       </div>
       <div className="content">
-        <h1 className="font-bold text-left text-xl flex justify-center items-center p-3">{title}</h1>
+        <h1 className="font-bold text-left text-xs sm:text-sm md:lg lg:text-xl flex justify-center items-center p-3">{title}</h1>
         <p className="p-5">{children}</p>
       </div>
     </div>
