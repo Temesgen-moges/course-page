@@ -250,13 +250,102 @@ const App = () => {
 </div>
 
 {/* choice favourite ends */}
+
+{/* Recommended for you start */}
 <div className="bg-custom-blue p-10 mt-10">
 <div>
 <h1 className="font-bold text-left text-xl">
             Recommended for you
           </h1>
+          <div className="container flex space-x-9  mt-10 " >
+          <div className="bg-white p-4 m-2 flex border border-gray-300 rounded-lg relative">
+            <div className="flex flex-col justify-between">
+              <img src={one} alt="three" className="rounded-lg object-cover" />
+              <div>
+                <h1>aws certified solution architect</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      aliquet, felis in congue vehicula,</p>
+                <div className="flex items-center pt-3">
+                  <img src={three} alt="three" className="w-8 h-8 rounded-full" />
+                  <h3 className="mr-2 pl-3 ">Lina</h3>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+
+          <div className="bg-white p-4 m-2 flex border border-gray-300 rounded-lg relative">
+            <div className="flex flex-col justify-between">
+              <img src={one} alt="three" className="rounded-lg object-cover" />
+              <div>
+                <h1>aws certified solution architect</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                   aliquet, felis in congue vehicula,</p>
+                <div className="flex items-center pt-3">
+                  <img src={three} alt="three" className="w-8 h-8 rounded-full" />
+                  <h3 className="mr-2 pl-3 ">Lina</h3>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+
+          <div className="bg-white p-4 m-2 flex border border-gray-300 rounded-lg relative">
+            <div className="flex flex-col justify-between">
+              <img src={one} alt="three" className="rounded-lg object-cover" />
+              <div>
+                <h1>aws certified solution architect</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                   aliquet, felis in congue vehicula,</p>
+                <div className="flex items-center pt-3">
+                  <img src={three} alt="three" className="w-8 h-8 rounded-full" />
+                  <h3 className="mr-2 pl-3 ">Lina</h3>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+
+          <div className="bg-white p-4 m-2 flex border border-gray-300 rounded-lg relative">
+            <div className="flex flex-col justify-between">
+              <img src={one} alt="three" className="rounded-lg object-cover" />
+              <div>
+                <h1>aws certified solution architect</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      aliquet, felis in congue vehicula,</p>
+                <div className="flex items-center pt-3">
+                  <img src={three} alt="three" className="w-8 h-8 rounded-full" />
+                  <h3 className="mr-2 pl-3 ">Lina</h3>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+
+
+          </div>
 </div>
  </div>
+{/* Recommended for you ends */}
+{/* online coaching start */}
+<div className='mr-10 ml-10 '>
+    <div style={{ backgroundColor: '#252641' }} className='rounded-2xl p-10 m-10'>
+        <h1 className='font-bold text-center text-white text-2xl p-6'>
+            Online coaching lessons for remote learning.
+        </h1>
+        <p className='text-center text-white pl-20 pr-20 pb-6'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            aliquet, felis in congue vehicula,
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            aliquet, felis in congue vehicula,
+        </p>
+        <div className=' flex justify-center'>
+        <button style={{ backgroundColor: '#49bbbd' }} className=" mx-auto text-center rounded text-sm h-10 w-36">
+            Start learning now 
+        </button>
+        </div>
+    </div>
+</div>
 
     </div>
     

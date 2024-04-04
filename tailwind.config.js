@@ -9,7 +9,7 @@ module.exports = {
         brightColor: "#F4511F",
         backgroundColor: "#b7bca9",
         lightText: '#959595',
-        'custom-blue': 'rgba(157, 204, 255, 1)',
+        'custom-blue': 'rgba(157,204,255,1)',
         'custom-blue-text': 'rgba(73,187,189,1)',
       }
     },
